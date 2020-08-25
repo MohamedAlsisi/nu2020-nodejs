@@ -30,7 +30,7 @@ app.post(baseurl, function (req, res) {
     price : req.body.price
   }  
   products.push(reqProduct);
-  res.send(JSON.stringify(products)+ "The New product is "+JSON.stringify(reqroduct));
+  res.send(JSON.stringify(products)+ "The new product is "+JSON.stringify(reqProduct));
 }); 
 
 //Delete product details by id 
