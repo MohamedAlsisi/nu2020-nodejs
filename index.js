@@ -25,7 +25,7 @@ app.get(baseurl, function (req, res) {
 //Post product details by json
 app.post(baseurl, function (req, res) {
   const reqProduct= {
-    id : c++,
+    id : ++c,
     name : req.body.name,
     price : req.body.price
   }  
